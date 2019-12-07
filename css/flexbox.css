@@ -9,6 +9,14 @@
     display: flex;
 }
 
+/*** Course map ***/
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    flex-flow: column wrap;
+    height: 260px;
+}
+
 /*** Footer ***/
 .rodapePrincipal-patrocinadores .container {
     display: flex;
