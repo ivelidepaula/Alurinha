@@ -10,6 +10,27 @@
     display: flex;
 }
 
+/*** Vantagens e Video ***/
+
+.videoSobre .container {
+    display: flex;
+}
+
+.videoSobre-sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.videoSobre-sobre-list {
+    flex-grow: 1;
+}
+
+.videoSobre-video {
+    flex-grow: 1;
+}
+
 /*** Courses ***/
 
 .conteudoPrincipal-cursos {
@@ -81,6 +102,10 @@
         width:100%;
     }
     
+    .cabecalhoPrincipal-nav-link-app {
+        order: -1;
+    }
+
     .rodapePrincipal-navMap-list {
         height: auto;
     }
