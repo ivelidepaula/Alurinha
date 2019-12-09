@@ -84,6 +84,7 @@
 
 /*** Design Mobile ***/
 @media(max-width: 768px) {
+    /*** Header mobile ***/
     .cabecalhoPrincipal-nav {
         flex-direction:column;
     }
@@ -106,6 +107,21 @@
         order: -1;
     }
 
+    /*** Video mobile ***/
+    .videoSobre-video {
+        flex-grow: 1;
+        flex-shrink: 2; 
+    }
+
+    .videoSobre .container {
+        flex-direction: column;
+    }
+    
+    .videoSobre-video {
+        margin: 0 auto;
+    }
+
+    /*** Footer mobile ***/
     .rodapePrincipal-navMap-list {
         height: auto;
     }
